@@ -1,6 +1,6 @@
 DELIMITER $$
 
-CREATE FUNCTION HW_06.sec_to_day(seconds int) 
+CREATE FUNCTION fin_practice.sec_to_day(seconds int) 
   RETURNS varchar(250)
   DETERMINISTIC
 BEGIN
